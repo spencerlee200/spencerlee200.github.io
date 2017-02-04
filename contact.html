@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Rubik:900" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angularFire/2.1.0/angularfire.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyB51NI259D7t109cfYEDgjUFPfnmj3N0sg",
+        authDomain: "portfolio-609d9.firebaseapp.com",
+        databaseURL: "https://portfolio-609d9.firebaseio.com",
+        storageBucket: "portfolio-609d9.appspot.com",
+        messagingSenderId: "893838337712"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <link href="css/main.css" rel="stylesheet"/>
+    <title>Spencer Lee</title>
+  </head>
+  <body ng-app="MyApp" ng-controller="MyController">
+    <img class="escape" src="images/logo.png" alt="Logo">
+    <section id="header">
+      <h1> SPENCER LEE </h1>
+      <h2> Creative Developer </h2>
+      <nav id="nav">
+        <a href="about.html"> About </a>
+        <a href="index.html"> Work </a>
+        <a class="active" href="contact.html"> Contact </a>
+      </nav>
+    </section>
+
+    <section id="contact">
+      <h3> Say Hello! </h3>
+      <form ng-submit="add()">
+        <label for="email"> Email: </label><br/>
+        <input id="email" placeholder="example123@gmail.com"/><br/>
+        <label for="msg"> Message: </label><br/>
+        <textarea id="message" placeholder="Hello!" rows=4></textarea>
+        <button type="submit"> Send </button>
+      </form>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="js/contact.js"></script>
+  </body>
+</html>
