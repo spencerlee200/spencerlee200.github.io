@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/unslider.css"/>
-    <link rel="stylesheet" href="css/unslider-dots.css"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Rubik:900" rel="stylesheet"/>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
     <link href="css/main.css" rel="stylesheet"/>
-    <title>Spencer Lee</title>
+    <title>Spencer Lee - Creative Developer</title>
+    <meta name="description" content="Hi I'm Spencer Lee, a creative developer. Here you can find some of the different projects I've gotten to work on the last few months.">
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -28,34 +29,114 @@
         <a href="about.html"> About </a>
         <a class="active" href="index.html"> Work </a>
         <a href="contact.html"> Contact </a>
+        <a href="Lee_Spencer-Resume.pdf" target="_blank"> Resume </a>
       </nav>
     </section>
 
     <section id="work">
-      <div class="slider">
-      	<ul>
-          <li><a href="https://github.com/spencerlee200/secretshow" target="_blank"><img src="images/work/ss.png" alt="Secret Show"></a></li>
-          <li><a href="https://github.com/spencerlee200/notesplus" target="_blank"><img src="images/work/notes.png" alt="Notes +"></a></li>
-          <li><a href="https://github.com/spencerlee200/baldwinsbooks" target="_blank"><img src="images/work/bb.png" alt="Baldwin's Books"></a></li>
-          <li><a href="https://github.com/spencerlee200/dots" target="_blank"><img src="images/work/dot.png" alt="DOT"></a></li>
-          <li><a href="https://github.com/spencerlee200/blackjack" target="_blank"><img src="images/work/blackjack.png" alt="blackjack"></a></li>
-      	</ul>
-      </div>
-    </section>
-
-    <section id="mobile-work">
       <div>
         <ul>
-          <li><a href="https://github.com/spencerlee200/secretshow" target="_blank"><img src="images/work/ss.png" alt="Secret Show"></a></li>
-          <li><a href="https://github.com/spencerlee200/notesplus" target="_blank"><img src="images/work/notes.png" alt="Notes +"></a></li>
-          <li><a href="https://github.com/spencerlee200/baldwinsbooks" target="_blank"><img src="images/work/bb.png" alt="Baldwin's Books"></a></li>
-          <li><a href="https://github.com/spencerlee200/dots" target="_blank"><img src="images/work/dot.png" alt="DOT"></a></li>
-          <li><a href="https://github.com/spencerlee200/blackjack" target="_blank"><img src="images/work/blackjack.png" alt="blackjack"></a></li>
+          <li>
+            <span> Red Seat Cinemas </span>
+            <div class="dropdown">
+              <div>
+                <p> The challenge for this project was to design a CRUD application
+                    running on a Javascript framework. I created an Angular site, similar to IMBD, where
+                    users could ad and review movies that they enjoyed. The site has some advanced sorting
+                    features that I am proud of.
+                </p>
+                <a href="http://thespencerlee.me/movies" target="_blank"><button> Live&nbsp;&nbsp;<i class="fa fa-bolt" aria-hidden="true"></i></button></a>
+                <a href="https://github.com/spencerlee200/movies" target="_blank"><button> Code&nbsp;&nbsp;<i class="fa fa-github-alt" aria-hidden="true"></i></button></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <span> Secret Show </span>
+            <div class="dropdown">
+              <div>
+                <p> This project was my first experience working with a client. He wanted
+                    a static web page where people could watch the pilot to the TV show he had created.
+                    I learned a lot about designing for others rather than designing for myself while
+                    creating this project.
+                </p>
+                <a href="http://thespencerlee.me/secretshow" target="_blank"><button> Live&nbsp;&nbsp;<i class="fa fa-bolt" aria-hidden="true"></i></button></a>
+                <a href="https://github.com/spencerlee200/secretshow" target="_blank"><button> Code&nbsp;&nbsp;<i class="fa fa-github-alt" aria-hidden="true"></i></button></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <span> Spinny Notes </span>
+            <div class="dropdown">
+              <div>
+                <p> The challenge for this project was to create a node application with MVC
+                    architecture that used at least one API and had full CRUD implementation. I decided
+                    to create a notes application where users could create their own custom notebooks
+                    as well as custom notes.
+                </p>
+                <a href="http://www.spinnynotes.com" target="_blank"><button> Live&nbsp;&nbsp;<i class="fa fa-bolt" aria-hidden="true"></i></button></a>
+                <a href="https://github.com/spencerlee200/spinnynotes" target="_blank"><button> Code&nbsp;&nbsp;<i class="fa fa-github-alt" aria-hidden="true"></i></button></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <span> Baldwins Books </span>
+            <div class="dropdown">
+              <div>
+                <p> The challenge for this project was to create a fully functioning Laravel e-commerce site
+                    on a team of 2 other developers. The project lasted about 2 weeks and gave me a lot of
+                    experience working in the MEAN stack. I got lots of experience with oauth, routing, and
+                    the stripe payment API.
+                </p>
+                <a href="https://github.com/spencerlee200/baldwinsbooks" target="_blank"><button> Code&nbsp;&nbsp;<i class="fa fa-github-alt" aria-hidden="true"></i></button></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <span> Dots </span>
+            <div class="dropdown">
+              <div>
+                <p> The challenge for this project was to create an interactive game with full MVC
+                    architecture using only vanilla Javascript. I had a ton of fun with this and it gave me
+                    the opportunity to fine-tune my Javascript skills without being able to fall back on
+                    any kind of framework or external tool.
+                </p>
+                <a href="http://thespencerlee.me/dots" target="_blank"><button> Live&nbsp;&nbsp;<i class="fa fa-bolt" aria-hidden="true"></i></button></a>
+                <a href="https://github.com/spencerlee200/dots" target="_blank"><button> Code&nbsp;&nbsp;<i class="fa fa-github-alt" aria-hidden="true"></i></button></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <span> Blackjack </span>
+            <div class="dropdown">
+              <div>
+                <p> This was one of my early projects at Full Sail where we were tasked with
+                    the simple challenge of implementing any API we could find. I decided to create a
+                    simple blackjack game with the Deck of Cards API. It definitely shows how far I’ve
+                    come as a developer in just a few months.
+                </p>
+                <a href="http://thespencerlee.me/blackjack" target="_blank"><button> Live&nbsp;&nbsp;<i class="fa fa-bolt" aria-hidden="true"></i></button></a>
+                <a href="https://github.com/spencerlee200/blackjack" target="_blank"><button> Code&nbsp;&nbsp;<i class="fa fa-github-alt" aria-hidden="true"></i></button></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <span> PWRhour </span>
+            <div class="dropdown">
+              <div>
+                <p> I've been told that the best sites any developer will create are the ones they
+                    make quickly to help them solve problems in their own lives. So when my friend needed
+                    a timer to play a popular drinking game I thought I might as well make one others could use
+                    for the same purpose.
+                </p>
+                <a href="http://thespencerlee.me/pwrhour" target="_blank"><button> Live&nbsp;&nbsp;<i class="fa fa-bolt" aria-hidden="true"></i></button></a>
+                <a href="https://github.com/spencerlee200/pwrhour" target="_blank"><button> Code&nbsp;&nbsp;<i class="fa fa-github-alt" aria-hidden="true"></i></button></a>
+              </div>
+            </div>
+          </li>
         </ul>
       </div>
     </section>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-	  <script src="js/unslider-min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
