@@ -68,30 +68,37 @@ a {
   list-style: none;
   padding-left: 0;
   margin-left: 0;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 #work ul li {
-  padding: 20px;
+  padding: 40px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
-#work ul li {
-  -webkit-transform: skewY(3deg);
-     -moz-transform: skewY(3deg);
-      -ms-transform: skewY(3deg);
-          transform: skewY(3deg);
+#work ul li:hover {
+  cursor: pointer;
 }
 
 #work li span {
-  line-height: 120px;
   display: block;
   font-size: 1.5em;
   vertical-align: middle;
-  -webkit-transform: skewY(-3deg);
-     -moz-transform: skewY(-3deg);
-      -ms-transform: skewY(-3deg);
-          transform: skewY(-3deg);
+}
+
+.slant {
+  -webkit-transform: skewY(5deg);
+     -moz-transform: skewY(5deg);
+      -ms-transform: skewY(5deg);
+          transform: skewY(5deg);
+}
+
+.revslant {
+  -webkit-transform: skewY(-5deg);
+     -moz-transform: skewY(-5deg);
+      -ms-transform: skewY(-5deg);
+          transform: skewY(-5deg);
 }
 
 .dropdown {
@@ -102,19 +109,15 @@ a {
 
 .dropdown div {
   text-align: center;
-  -webkit-transform: skewY(-3deg);
-     -moz-transform: skewY(-3deg);
-      -ms-transform: skewY(-3deg);
-          transform: skewY(-3deg);
 }
 
 .dropdown p {
   width: 70%;
-  margin: 0 auto;
+  text-align: left;
+  margin: 25px auto;
 }
 
 .dropdown button {
-  margin-top: 15px;
   padding: 10px 16px;
   border: 2px solid white;
   color: white;
@@ -227,6 +230,10 @@ a {
   #contact form {
     width: 70%;
     margin-left: 15%;
+  }
+
+  #work ul {
+    margin-top: 80px;
   }
 }
 
