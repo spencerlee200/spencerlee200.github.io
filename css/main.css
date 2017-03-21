@@ -157,12 +157,8 @@ a {
 
 #about p {
   width: 50%;
-  text-align: left;
-  margin: 0 auto;
-}
-
-#about p:last-of-type {
   text-align: center;
+  margin: 0 auto;
 }
 
 #reach span {
