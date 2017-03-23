@@ -1,7 +1,4 @@
 $(document).ready(function($) {
-  if(window.location == "http://thespencerlee.me/Portfolio/Portfolio/about.html") {
-    window.location.replace("http://thespencerlee.me/about");
-  }
   var listItems = $("#work ul li");
   listItems.each(function(i, li) {
     //var colors = ["#EF476F","#FF8C61","#FFD166","#00cc99","#118AB2","#073B4C","#EE6055"];
