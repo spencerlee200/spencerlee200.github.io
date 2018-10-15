@@ -11,6 +11,7 @@ $(document).ready(function($) {
                      "linear-gradient(to left, #EB3349 , #F45C43)",
                      "linear-gradient(to right, #FF512F , #F09819)",
                      "linear-gradient(to left, #EC6F66 , #F3A183)",
+                     "linear-gradient(to left, #eacda3, #d6ae7b)",
                      "linear-gradient(to left, #ADD100 , #7B920A)"
                    ];
     $(li).css('background', gradients[i])
