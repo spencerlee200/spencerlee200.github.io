@@ -18,14 +18,14 @@ $(document).ready(function($) {
 
   $('.banner_btn').on('click', function(){
     if($(this).val == 'msft'){
-      $(".overlay, #microsoft_ad").show();
+      $(".overlay, #microsoft_ad").removeClass('hidden');
     }
     if($(this).val == 'ssga'){
-      $(".overlay, #ssga_ad").show();
+      $(".overlay, #ssga_ad").removeClass('hidden');
     }
   });
 
   $(".banner i, .overlay").on('click',function(){
-    $(".banner").each().hide();
+    $(".banner").each().addClass('hidden');
   })
 });
