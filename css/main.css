@@ -148,10 +148,10 @@ a {
                 Banners
 //////////////////////////////////////*/
 .banner {
-  border: 10px solid #313639;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  bottom: 0;
   left: 0;
   right: 0;
 }
@@ -161,6 +161,11 @@ a {
   top: 15px;
   right: 15px;
   color: red;
+}
+
+.banner iframe {
+  width: 100%;
+  height: 100%;
 }
 
 .overlay {
@@ -173,6 +178,7 @@ a {
   bottom: 0;
   background: rgba(0,0,5,0.3);
   display: block;
+  z-index: 1;
 }
 
 #microsoft_ad {

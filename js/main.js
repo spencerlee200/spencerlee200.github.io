@@ -15,17 +15,4 @@ $(document).ready(function($) {
                    ];
     $(li).css('background', gradients[i])
   });
-
-  $('.banner_btn').on('click', function(){
-    if($(this).val() == 'msft'){
-      $(".overlay, #microsoft_ad").removeClass('hidden');
-    }
-    if($(this).val() == 'ssga'){
-      $(".overlay, #ssga_ad").removeClass('hidden');
-    }
-  });
-
-  $(".banner i, .overlay").on('click',function(){
-    $(".banner").addClass('hidden');
-  })
 });
