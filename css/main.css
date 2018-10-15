@@ -13,6 +13,8 @@ a {
   color: white;
 }
 
+
+
 #header {
   text-align: center;
 }
@@ -58,7 +60,7 @@ a {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 /*//////////////////////////////////////
@@ -75,10 +77,6 @@ a {
   padding: 40px;
   text-align: center;
   margin-bottom: 20px;
-}
-
-#work ul li:hover {
-  cursor: pointer;
 }
 
 #work li span {
@@ -128,6 +126,8 @@ a {
   font-size: .9em;
   font-weight: bolder;
   background: inherit;
+  margin-bottom: 15px;
+  cursor: pointer;
 }
 
 .dropdown button:hover {
@@ -144,6 +144,46 @@ a {
   font-size: 2em;
 }
 
+/*//////////////////////////////////////
+                Banners
+//////////////////////////////////////*/
+.banner {
+  border: 10px solid #313639;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+}
+
+.banner i {
+  position: relative;
+  top: 15px;
+  right: 15px;
+  color: red;
+}
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,5,0.3);
+  display: block;
+}
+
+#microsoft_ad {
+  width: 300px;
+  height: 250px;
+}
+
+#ssga_ad {
+  width: 300px;
+  height: 600px;
+}
 /*//////////////////////////////////////
                 About
 //////////////////////////////////////*/
