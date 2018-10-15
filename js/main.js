@@ -17,15 +17,15 @@ $(document).ready(function($) {
   });
 
   $('.banner_btn').on('click', function(){
-    if($(this).val == 'msft'){
+    if($(this).val() == 'msft'){
       $(".overlay, #microsoft_ad").removeClass('hidden');
     }
-    if($(this).val == 'ssga'){
+    if($(this).val() == 'ssga'){
       $(".overlay, #ssga_ad").removeClass('hidden');
     }
   });
 
   $(".banner i, .overlay").on('click',function(){
-    $(".banner").each().addClass('hidden');
+    $(".banner").addClass('hidden');
   })
 });
